@@ -1,0 +1,53 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Doctor Details */
+.doctor-details {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #e9f7f0;
+}
+
+.doctor-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Different background colors for each card */
+.card:nth-child(1) {
+    background: #f8d7da;
+}
+/* Light Red */
+.card:nth-child(2) {
+    background: #d1ecf1;
+}
+/* Light Blue */
+.card:nth-child(3) {
+    background: #d4edda;
+}
+/* Light Green */
+.card:nth-child(4) {
+    background: #fff3cd;
+}
+/* Light Yellow */
+.card:nth-child(5) {
+    background: #e2e3e5;
+}
+/* Light Gray */
+.card:nth-child(6) {
+    background: #cfe2ff;
+}
+/* Light Purple */
+
+.card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
