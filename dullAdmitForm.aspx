@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdmitForm.aspx.cs" Inherits="Careconnect.AdmitForm" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dullAdmitForm.aspx.cs" Inherits="Careconnect.AdmitForm" %>
 
 <!DOCTYPE html>
 
@@ -75,6 +75,11 @@
             border: none;
             cursor: pointer;
         }
+
+            .btn-signup:hover {
+                background-color: #00594D;
+                border-radius: 5px;
+            }
 
         .sidebar {
             height: auto;
@@ -213,7 +218,9 @@
                     <a href="Home.aspx" class="logo" style="color: #ffff;">CareConnect Hospital</a>
                     <ul class="nav-links">
                         <li><a href="#" style="color: #fff;">Dashboard</a></li>
-                        <li><a href="Home.aspx" class="btn-signup">Sign Out</a></li>
+                        <li>
+                            <asp:Button ID="btnSignOut" runat="server" Text="Sign Out" CssClass="btn-signup" />
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -258,11 +265,6 @@
     </form>
 </body>
 </html>
-
-
-
-
-
 
 
 

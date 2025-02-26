@@ -67,55 +67,162 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Adminpannel1.aspx" />
-    <Content Include="AdmitForm.aspx" />
-    <Content Include="Bookappointment.aspx" />
+    <Content Include=".gitignore" />
+    <Content Include="CareconnectManageAppointments.aspx" />
+    <Content Include="CareconnectManageDoctor.aspx" />
+    <Content Include="CareconnectManagepatientpannel.aspx" />
+    <Content Include="CareconnectManagePatients.aspx" />
+    <Content Include="dullAdminpannel1.aspx" />
+    <Content Include="CareconnectAdminPannel.aspx" />
+    <Content Include="dullAdmitForm.aspx" />
+    <Content Include="App_Data\hospital.mdf" />
+    <Content Include="App_Data\hospital_log.ldf">
+      <DependentUpon>hospital.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Database2.mdf" />
+    <Content Include="App_Data\Database2_log.ldf">
+      <DependentUpon>Database2.mdf</DependentUpon>
+    </Content>
+    <Content Include="CareconnectReschedule.aspx" />
+    <Content Include="Careconnectscheduleappointment.aspx" />
+    <Content Include="Creconnectfeesubmit.aspx" />
+    <Content Include="dullBookappointment.aspx" />
+    <Content Include="Careconnectbookappointment.aspx" />
+    <Content Include="CareconnectDoctordetails.aspx" />
+    <Content Include="CareconnectHomepage.aspx" />
+    <Content Include="CareconnectSigninPage.aspx" />
     <Content Include="Content\StyleSheet1.css" />
     <Content Include="Content\StyleSheet2.css" />
-    <Content Include="Doctor details.aspx" />
+    <Content Include="dullDoctor details.aspx" />
     <Content Include="Doctorpannel.aspx" />
     <Content Include="Feedbackform.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Home.aspx" />
-    <Content Include="Feeprocess.aspx" />
+    <Content Include="Dull.aspx" />
+    <Content Include="dullFeeprocess.aspx" />
     <Content Include="ManageDoctor.aspx" />
     <Content Include="ManagePatient.aspx" />
-    <Content Include="PatientPannel.aspx" />
+    <Content Include="dullPatientPannel.aspx" />
     <Content Include="RegisterDoctor.aspx" />
-    <Content Include="RescheduleAppointment.aspx" />
-    <Content Include="Signin.aspx" />
-    <Content Include="Signup.aspx" />
+    <Content Include="dullRescheduleAppointment.aspx" />
+    <Content Include="DullSignin.aspx" />
+    <Content Include="dullSignup.aspx" />
     <Content Include="Web.config" />
-    <Content Include="scheduleappointment.aspx" />
+    <Content Include="dullscheduleappointment.aspx" />
+    <Content Include="Careconnectsignuppage.aspx" />
+    <Content Include="CareconnectAdmitform.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adminpannel1.aspx.cs">
-      <DependentUpon>Adminpannel1.aspx</DependentUpon>
+    <Compile Include="CareconnectManageAppointments.aspx.cs">
+      <DependentUpon>CareconnectManageAppointments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Adminpannel1.aspx.designer.cs">
-      <DependentUpon>Adminpannel1.aspx</DependentUpon>
+    <Compile Include="CareconnectManageAppointments.aspx.designer.cs">
+      <DependentUpon>CareconnectManageAppointments.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdmitForm.aspx.cs">
-      <DependentUpon>AdmitForm.aspx</DependentUpon>
+    <Compile Include="CareconnectManageDoctor.aspx.cs">
+      <DependentUpon>CareconnectManageDoctor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdmitForm.aspx.designer.cs">
-      <DependentUpon>AdmitForm.aspx</DependentUpon>
+    <Compile Include="CareconnectManageDoctor.aspx.designer.cs">
+      <DependentUpon>CareconnectManageDoctor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Bookappointment.aspx.cs">
-      <DependentUpon>Bookappointment.aspx</DependentUpon>
+    <Compile Include="CareconnectManagepatientpannel.aspx.cs">
+      <DependentUpon>CareconnectManagepatientpannel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Bookappointment.aspx.designer.cs">
-      <DependentUpon>Bookappointment.aspx</DependentUpon>
+    <Compile Include="CareconnectManagepatientpannel.aspx.designer.cs">
+      <DependentUpon>CareconnectManagepatientpannel.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Doctor details.aspx.cs">
-      <DependentUpon>Doctor details.aspx</DependentUpon>
+    <Compile Include="CareconnectManagePatients.aspx.cs">
+      <DependentUpon>CareconnectManagePatients.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor details.aspx.designer.cs">
-      <DependentUpon>Doctor details.aspx</DependentUpon>
+    <Compile Include="CareconnectManagePatients.aspx.designer.cs">
+      <DependentUpon>CareconnectManagePatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dullAdminpannel1.aspx.cs">
+      <DependentUpon>dullAdminpannel1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dullAdminpannel1.aspx.designer.cs">
+      <DependentUpon>dullAdminpannel1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CareconnectAdminPannel.aspx.cs">
+      <DependentUpon>CareconnectAdminPannel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectAdminPannel.aspx.designer.cs">
+      <DependentUpon>CareconnectAdminPannel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dullAdmitForm.aspx.cs">
+      <DependentUpon>dullAdmitForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dullAdmitForm.aspx.designer.cs">
+      <DependentUpon>dullAdmitForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CareconnectReschedule.aspx.cs">
+      <DependentUpon>CareconnectReschedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectReschedule.aspx.designer.cs">
+      <DependentUpon>CareconnectReschedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Careconnectscheduleappointment.aspx.cs">
+      <DependentUpon>Careconnectscheduleappointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Careconnectscheduleappointment.aspx.designer.cs">
+      <DependentUpon>Careconnectscheduleappointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Creconnectfeesubmit.aspx.cs">
+      <DependentUpon>Creconnectfeesubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Creconnectfeesubmit.aspx.designer.cs">
+      <DependentUpon>Creconnectfeesubmit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dullBookappointment.aspx.cs">
+      <DependentUpon>dullBookappointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dullBookappointment.aspx.designer.cs">
+      <DependentUpon>dullBookappointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Careconnectbookappointment.aspx.cs">
+      <DependentUpon>Careconnectbookappointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Careconnectbookappointment.aspx.designer.cs">
+      <DependentUpon>Careconnectbookappointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CareconnectDoctordetails.aspx.cs">
+      <DependentUpon>CareconnectDoctordetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectDoctordetails.aspx.designer.cs">
+      <DependentUpon>CareconnectDoctordetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CareconnectHomepage.aspx.cs">
+      <DependentUpon>CareconnectHomepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectHomepage.aspx.designer.cs">
+      <DependentUpon>CareconnectHomepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CareconnectSigninPage.aspx.cs">
+      <DependentUpon>CareconnectSigninPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectSigninPage.aspx.designer.cs">
+      <DependentUpon>CareconnectSigninPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dullDoctor details.aspx.cs">
+      <DependentUpon>dullDoctor details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dullDoctor details.aspx.designer.cs">
+      <DependentUpon>dullDoctor details.aspx</DependentUpon>
     </Compile>
     <Compile Include="Doctorpannel.aspx.cs">
       <DependentUpon>Doctorpannel.aspx</DependentUpon>
@@ -134,19 +241,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Dull.aspx.cs">
+      <DependentUpon>Dull.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Dull.aspx.designer.cs">
+      <DependentUpon>Dull.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Feeprocess.aspx.cs">
-      <DependentUpon>Feeprocess.aspx</DependentUpon>
+    <Compile Include="dullFeeprocess.aspx.cs">
+      <DependentUpon>dullFeeprocess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Feeprocess.aspx.designer.cs">
-      <DependentUpon>Feeprocess.aspx</DependentUpon>
+    <Compile Include="dullFeeprocess.aspx.designer.cs">
+      <DependentUpon>dullFeeprocess.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageDoctor.aspx.cs">
       <DependentUpon>ManageDoctor.aspx</DependentUpon>
@@ -162,12 +269,12 @@
     <Compile Include="ManagePatient.aspx.designer.cs">
       <DependentUpon>ManagePatient.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PatientPannel.aspx.cs">
-      <DependentUpon>PatientPannel.aspx</DependentUpon>
+    <Compile Include="dullPatientPannel.aspx.cs">
+      <DependentUpon>dullPatientPannel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PatientPannel.aspx.designer.cs">
-      <DependentUpon>PatientPannel.aspx</DependentUpon>
+    <Compile Include="dullPatientPannel.aspx.designer.cs">
+      <DependentUpon>dullPatientPannel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterDoctor.aspx.cs">
@@ -177,37 +284,67 @@
     <Compile Include="RegisterDoctor.aspx.designer.cs">
       <DependentUpon>RegisterDoctor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RescheduleAppointment.aspx.cs">
-      <DependentUpon>RescheduleAppointment.aspx</DependentUpon>
+    <Compile Include="dullRescheduleAppointment.aspx.cs">
+      <DependentUpon>dullRescheduleAppointment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="RescheduleAppointment.aspx.designer.cs">
-      <DependentUpon>RescheduleAppointment.aspx</DependentUpon>
+    <Compile Include="dullRescheduleAppointment.aspx.designer.cs">
+      <DependentUpon>dullRescheduleAppointment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Signin.aspx.cs">
-      <DependentUpon>Signin.aspx</DependentUpon>
+    <Compile Include="DullSignin.aspx.cs">
+      <DependentUpon>DullSignin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Signin.aspx.designer.cs">
-      <DependentUpon>Signin.aspx</DependentUpon>
+    <Compile Include="DullSignin.aspx.designer.cs">
+      <DependentUpon>DullSignin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Signup.aspx.cs">
-      <DependentUpon>Signup.aspx</DependentUpon>
+    <Compile Include="dullSignup.aspx.cs">
+      <DependentUpon>dullSignup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Signup.aspx.designer.cs">
-      <DependentUpon>Signup.aspx</DependentUpon>
+    <Compile Include="dullSignup.aspx.designer.cs">
+      <DependentUpon>dullSignup.aspx</DependentUpon>
     </Compile>
-    <Compile Include="scheduleappointment.aspx.cs">
-      <DependentUpon>scheduleappointment.aspx</DependentUpon>
+    <Compile Include="dullscheduleappointment.aspx.cs">
+      <DependentUpon>dullscheduleappointment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="scheduleappointment.aspx.designer.cs">
-      <DependentUpon>scheduleappointment.aspx</DependentUpon>
+    <Compile Include="dullscheduleappointment.aspx.designer.cs">
+      <DependentUpon>dullscheduleappointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Careconnectsignuppage.aspx.cs">
+      <DependentUpon>Careconnectsignuppage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Careconnectsignuppage.aspx.designer.cs">
+      <DependentUpon>Careconnectsignuppage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CareconnectAdmitform.aspx.cs">
+      <DependentUpon>CareconnectAdmitform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectAdmitform.aspx.designer.cs">
+      <DependentUpon>CareconnectAdmitform.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -216,9 +353,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Images\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

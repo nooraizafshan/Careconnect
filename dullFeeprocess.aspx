@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Feeprocess.aspx.cs" Inherits="YourNamespace.RescheduleAppointment" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dullFeeprocess.aspx.cs" Inherits="YourNamespace.RescheduleAppointment" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,23 +101,12 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <!-- Brand -->
-        <a href="#" class="brand">CareConnect Hospital</a>
-        <!-- Navigation Links -->
-        <div class="links">
-            <a href="Home.aspx">Home</a>
-        </div>
-        <!-- Cancel Button -->
-        <a href="Bookappointment.aspx" class="cancel-btn">Cancel</a>
-    </nav>
+
     <div class="home">
         <div class="container">
             <h3 class="heading">Payment Process</h3>
             <p>Your fee <br />charges are <span class="numbers">500</span></p>
-            <button>Process Payment</button>
-        </div>
+<asp:Button runat="server" ID="processPayment" OnClick="processPayment_Click" Text="Process Payment" CssClass="button" />        </div>
     </div>
 </body>
 </html>

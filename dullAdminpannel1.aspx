@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Adminpannel1.aspx.cs" Inherits="Careconnect.Adminpannel1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dullAdminpannel1.aspx.cs" Inherits="Careconnect.Adminpannel1" %>
 
 <!DOCTYPE html>
 

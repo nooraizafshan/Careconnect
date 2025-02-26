@@ -234,7 +234,7 @@
                 </div>
                 <div class="main-content">
                     <div class="content-header">
-                        <h2>Manage Doctors</h2>
+                        <h2>Manage Patient</h2>
                         <div class="search-container">
                             <input type="text" placeholder="Search by name" />
                             <button>Search</button>

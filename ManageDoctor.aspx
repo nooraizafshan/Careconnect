@@ -225,7 +225,7 @@
                 </div>
                 <div class="main-content">
                     <div class="content-header">
-                        <h2>Manage Patients</h2>
+                        <h2>Manage Doctors</h2>
                         <div class="search-container">
                             <input type="text" placeholder="Search by name" />
                             <button>Search</button>
@@ -235,35 +235,48 @@
                         <table class="Doc-table">
                             <thead>
                                 <tr>
-                                    <th>Patient Name</th>
-                                    <th>Patient Guardian Name</th>
-                                    <th>number of days</th>
-                                    <th>total charges</th>
-                                    <th>Enter phone number</th>
+                                    <th>Doctor Name</th>
+                                    <th>Username</th>
+                                    <th>Password</th>
+                                    <th>Specialization</th>
+                                    <th>Availability days</th>
+                                    <th>Availability Date </th>
+                                    <th>Time </th>
 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>John Doe</td>
-                                    <td>Feb 15, 2025</td>
-                                    <td>Jane Smith</td>
-                                    <td>Feb 18, 2025</td>
-                                    <td class="status-confirmed">Confirmed</td>
+                                    <td>ass455</td>
+                                    <td>5739393</td>
+                                    <td>Mon , tues, thursday</td>
+                                    <td>1,4,6,7,8</td>
+                                    <td>7:00pm-4:00am</td>
+
+
+
+
                                 </tr>
                                 <tr>
-                                    <td>Jane Smith</td>
-                                    <td>Feb 18, 2025</td>
-                                    <td>Jane Smith</td>
-                                    <td>Feb 18, 2025</td>
-                                    <td class="status-pending">Pending</td>
+                                    <td>John Doe</td>
+                                    <td>ass455</td>
+                                    <td>5739393</td>
+                                    <td>Mon , tues, thursday</td>
+                                    <td>1,4,6,7,8</td>
+                                    <td>7:00pm-4:00am</td>
+
+
                                 </tr>
                                 <tr>
-                                    <td>Michael Johnson</td>
-                                    <td>Feb 20, 2025</td>
-                                    <td>Jane Smith</td>
-                                    <td>Feb 18, 2025</td>
-                                    <td class="status-cancelled">Cancelled</td>
+                                    <td>John Doe</td>
+                                    <td>ass455</td>
+                                    <td>5739393</td>
+                                    <td>Mon , tues, thursday</td>
+                                    <td>1,4,6,7,8</td>
+                                    <td>7:00pm-4:00am</td>
+
+
                                 </tr>
                             </tbody>
                         </table>

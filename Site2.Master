@@ -1,17 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RegisterDoctor.aspx.cs" Inherits="Careconnect.RegisterDoctor" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Careconnect.Site2" %>
 
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head runat="server">
     <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
     <style>
+        /* Add your CSS here */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #e9f7f0;
         }
-
 
         .navbar {
             display: flex;
@@ -21,7 +22,6 @@
             padding: 15px 0;
         }
 
-
         .container {
             width: 90%;
             max-width: 1200px;
@@ -30,14 +30,12 @@
             align-items: center;
         }
 
-
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
             color: white;
             text-decoration: none;
         }
-
 
         .nav-links {
             list-style: none;
@@ -64,7 +62,6 @@
                         border-radius: 5px;
                     }
 
-
         .btn-signup {
             background-color: #0D6EFD;
             color: white;
@@ -75,6 +72,11 @@
             border: none;
             cursor: pointer;
         }
+
+            .btn-signup:hover {
+                background-color: #00594D;
+                border-radius: 5px;
+            }
 
         .sidebar {
             height: auto;
@@ -117,6 +119,7 @@
             gap: 20px;
         }
 
+        /* Box1 Styling */
         .box1 {
             background-color: #fff;
             height: auto;
@@ -130,6 +133,7 @@
             .box1:hover {
                 border-color: #1d6f43; /* Dark green when focused */
             }
+
         /* Admission Form */
         .admission-form {
             background: white;
@@ -205,58 +209,34 @@
     </style>
 </head>
 <body>
-
     <form id="form1" runat="server">
-         <nav class="navbar">
-      <div class="container">
-          <a href="Home.aspx" class="logo" style="color: #ffff;">CareConnect Hospital</a>
-          <ul class="nav-links">
-              <li><a href="Adminpannel1.aspx" style="color: #fff;">Dashboard</a></li>
-              <li><a href="Home.aspx" class="btn-signup">Sign Out</a></li>
-          </ul>
-      </div>
-  </nav>
+        <div>
+            <!-- Navbar -->
+            <nav class="navbar">
+                <div class="container">
+                    <a href="Home.aspx" class="logo" style="color: #ffff;">CareConnect Hospital</a>
+                    <ul class="nav-links">
+                        <li><a href="#" style="color: #fff;">Dashboard</a></li>
+                        <li>
+                            <asp:Button ID="btnSignOut" runat="server" Text="Sign Out" CssClass="btn-signup" OnClick="btnSignOut_Click" />
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-        <div class="boxes">
-            <div class="sidebar">
-                <button class="btn-sidebar">Manage Patients</button>
-                <button class="btn-sidebar">Manage Doctors</button>
-                <button class="btn-sidebar">Manage Appointments</button>
-            </div>
+            <div class="boxes">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <asp:Button ID="btnManagePatient" runat="server" Text="Manage Patient" CssClass="btn-sidebar" OnClick="btnManagePatient_Click" />
+                    <asp:Button ID="btnManageDoctors" runat="server" Text="Manage Doctors" CssClass="btn-sidebar" OnClick="btnManageDoctors_Click" />
+                    <asp:Button ID="btnManageAppointments" runat="server" Text="Manage Appointments" CssClass="btn-sidebar" OnClick="btnManageAppointments_Click" />
+                </div>
 
-            <div class="content-center">
-                <div class="box1">
-                    <h2 class="form-header">Register Doctor</h2>
-
-                    <div class="form-group">
-                        <label>Doctor Name</label>
-                        <input type="text" placeholder="Enter Doctor Name" required />
-                    </div>
-                    <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" placeholder="Enter Username" required />
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" placeholder="Enter Password" required />
-                    </div>
-                    <div class="form-group">
-                        <label>Specialization</label>
-                        <input type="text" placeholder="Enter Specialization" required />
-                    </div>
-                    <div class="form-group">
-                        <label>Availability Days</label>
-                        <input type="text" placeholder="Enter Available Days" required />
-                    </div>
-                    <div class="form-group">
-                        <label>Date</label>
-                        <input type="date" required />
-                    </div>
-                    <div class="form-group">
-                        <label>Time</label>
-                        <input type="time" required />
-                    </div>
-                    <button class="admit-btn">Register</button>
+                <!-- Content Placeholder -->
+                <div class="content-center">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <!-- Content from child pages will go here -->
+                    </asp:ContentPlaceHolder>
                 </div>
             </div>
         </div>

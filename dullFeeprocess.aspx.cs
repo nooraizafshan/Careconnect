@@ -19,5 +19,11 @@ namespace YourNamespace
         {
             Response.Redirect("~/Default.aspx");
         }
+
+        protected void processPayment_Click(object sender, EventArgs e)
+        {
+            Response.Write("Payment processed successfully!");
+
+        }
     }
 }

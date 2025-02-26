@@ -1,4 +1,4 @@
-﻿
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="~/dullSignup.aspx.cs" Inherits="CareConnect.Signup" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -270,6 +270,7 @@
         </div>
     </nav>
     <!-- Main Container -->
+    <form runat="server" method="post">
     <div class="form-container">
         <div class="form-box">
             <div class="home-box">
@@ -285,12 +286,16 @@
                 <h4>Confirm Password</h4>
                 <input type="password" class="input-field" placeholder="Enter your confirmed Password">
 
+                <h4>Confirm Password</h4>
+<asp:TextBox runat="server" ID="txtConfirm" TextMode="password" CssClass="input-field" placeholder="Enter your confirmed Password">
+    </asp:TextBox>
                 <button class="btn-signin">Sign Up</button>
 
                 <p>Already have an account? <a href="Signin.aspx" style="color: #1d6f43;">Sign In</a></p>
             </div>
         </div>
     </div>
+        </form>
 </body>
 </html>
 

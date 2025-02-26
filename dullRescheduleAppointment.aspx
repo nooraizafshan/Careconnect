@@ -1,23 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RescheduleAppointment.aspx.cs" Inherits="Careconnect.RescheduleAppointment" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dullRescheduleAppointment.aspx.cs" Inherits="Careconnect.RescheduleAppointment" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #e9f7f0;
-        }
-
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #0b302c;
-            color: white;
-            padding: 10px 20px;
-        }
+  <style>
+       
 
             .navbar .brand {
                 font-size: 1.5rem;
