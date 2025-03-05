@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="CareconnectAdmitform.aspx" />
     <Content Include="CareconnectManageAppointments.aspx" />
     <Content Include="CareconnectManageDoctor.aspx" />
     <Content Include="CareconnectManagepatientpannel.aspx" />
@@ -100,7 +101,7 @@
     <Content Include="Dull.aspx" />
     <Content Include="dullFeeprocess.aspx" />
     <Content Include="ManageDoctor.aspx" />
-    <Content Include="ManagePatient.aspx" />
+    <Content Include="dullManagePatient.aspx" />
     <Content Include="dullPatientPannel.aspx" />
     <Content Include="RegisterDoctor.aspx" />
     <Content Include="dullRescheduleAppointment.aspx" />
@@ -109,9 +110,15 @@
     <Content Include="Web.config" />
     <Content Include="dullscheduleappointment.aspx" />
     <Content Include="Careconnectsignuppage.aspx" />
-    <Content Include="CareconnectAdmitform.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CareconnectAdmitform.aspx.cs">
+      <DependentUpon>CareconnectAdmitform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectAdmitform.aspx.designer.cs">
+      <DependentUpon>CareconnectAdmitform.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CareconnectManageAppointments.aspx.cs">
       <DependentUpon>CareconnectManageAppointments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -262,12 +269,12 @@
     <Compile Include="ManageDoctor.aspx.designer.cs">
       <DependentUpon>ManageDoctor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ManagePatient.aspx.cs">
-      <DependentUpon>ManagePatient.aspx</DependentUpon>
+    <Compile Include="dullManagePatient.aspx.cs">
+      <DependentUpon>dullManagePatient.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ManagePatient.aspx.designer.cs">
-      <DependentUpon>ManagePatient.aspx</DependentUpon>
+    <Compile Include="dullManagePatient.aspx.designer.cs">
+      <DependentUpon>dullManagePatient.aspx</DependentUpon>
     </Compile>
     <Compile Include="dullPatientPannel.aspx.cs">
       <DependentUpon>dullPatientPannel.aspx</DependentUpon>
@@ -332,13 +339,6 @@
     </Compile>
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
-    </Compile>
-    <Compile Include="CareconnectAdmitform.aspx.cs">
-      <DependentUpon>CareconnectAdmitform.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CareconnectAdmitform.aspx.designer.cs">
-      <DependentUpon>CareconnectAdmitform.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

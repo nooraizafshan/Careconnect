@@ -112,76 +112,193 @@
                 color: red;
                 font-weight: bold;
             }
+        /* Search Button */
+        .search-button {
+            padding: 12px 20px; /* Adjusted padding for consistent size */
+            background-color: #007bff; /* Blue color for search button */
+            color: white; /* White text color */
+            border: none;
+            border-radius: 6px; /* Slightly larger border radius */
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: background-color 0.3s, transform 0.2s; /* Added transform for hover effect */
+            font-size: 1rem; /* Larger font size */
+            font-weight: bold; /* Bold text */
+            min-width: 120px; /* Minimum width for better appearance */
+            height: 40px; /* Fixed height for consistency */
+        }
 
+            .search-button:hover {
+                background-color: #0056b3; /* Darker blue on hover */
+                transform: scale(1.05); /* Slightly enlarge on hover */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+            }
+
+        /* Action Buttons */
         .action-buttons {
             display: flex;
-            gap: 10px;
+            gap: 15px; /* Increased gap between buttons */
             justify-content: flex-start;
             padding: 0 20px;
         }
 
-            .action-buttons button {
-                padding: 8px 30px;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-                font-weight: bold;
-                transition: background-color 0.3s;
+        .btn-update, .btn-delete {
+            padding: 12px 20px; /* Adjusted padding for consistent size */
+            color: white; /* White text color */
+            border: none;
+            border-radius: 6px; /* Slightly larger border radius */
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s; /* Added transform for hover effect */
+            font-size: 1rem; /* Larger font size */
+            min-width: 120px; /* Minimum width for better appearance */
+            height: 40px; /* Fixed height for consistency */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-update {
+            background-color: #007bff; /* Blue color for update button */
+        }
+
+            .btn-update:hover {
+                background-color: #0056b3; /* Darker blue on hover */
+                transform: scale(1.05); /* Slightly enlarge on hover */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
             }
 
-            .action-buttons .btn-update {
-                background-color: #0b302c;
-            }
+        .btn-delete {
+            background-color: #007bff; /* Blue color for delete button */
+        }
+        /* CommandField Buttons Styling */
+        .btn-edit,
+        .btn-delete {
+            padding: 8px 12px; /* Padding for buttons */
+            color: white; /* Text color */
+            border: none; /* Remove border */
+            border-radius: 4px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            font-size: 0.9rem; /* Font size */
+            font-weight: bold; /* Bold text */
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Smooth transitions */
+        }
 
-                .action-buttons .btn-update:hover {
-                    background-color: #007bff;
-                }
+        .btn-edit {
+            background-color: #007bff; /* Blue for Edit button */
+        }
 
-            .action-buttons .btn-delete {
-                background-color: #dc3545; /* Red color for delete button */
-            }
+        .btn-delete {
+            background-color: #dc3545; /* Red for Delete button */
+        }
 
-                .action-buttons .btn-delete:hover {
-                    background-color: #c82333; /* Darker red on hover */
-                }
+        .btn-edit:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: scale(1.05); /* Slightly enlarge */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+        }
+
+        .btn-delete:hover {
+            background-color: #c82333; /* Darker red on hover */
+            transform: scale(1.05); /* Slightly enlarge */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+        }
+
+        .btn-delete:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: scale(1.05); /* Slightly enlarge on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+        }
     </style>
 </asp:Content>
+
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="main-content">
         <div class="content-header">
-            <h1>CareConnect Hospital</h1>
             <h2>Manage Patient</h2>
             <div class="search-container">
                 <asp:TextBox ID="txtSearch" runat="server" placeholder="Search by name"></asp:TextBox>
-                <asp:Button ID="btnSearch" runat="server" Text="Search" CssClass="search-button">
-                </asp:Button>
+                <asp:Button ID="btnSearch" runat="server" Text="Search" CssClass="search-button" OnClick="btnSearch_Click" />
             </div>
         </div>
+
         <div class="table-box">
-            <asp:GridView ID="gvPatients" runat="server" CssClass="Patient-table" AutoGenerateColumns="false">
+            <asp:GridView ID="gvPatients" runat="server" AutoGenerateColumns="false" CssClass="Patient-table"
+                OnPageIndexChanging="gvPatients_PageIndexChanging" OnRowEditing="gvPatients_RowEditing"
+                OnRowCancelingEdit="gvPatients_RowCancelingEdit" OnRowUpdating="gvPatients_RowUpdating"
+                OnRowDeleting="gvPatients_RowDeleting" DataKeyNames="PatientID">
                 <Columns>
-                    <asp:BoundField DataField="PatientName" HeaderText="Patient Name" />
-                    <asp:BoundField DataField="GuardianName" HeaderText="Patient Guardian Name" />
-                    <asp:BoundField DataField="NumberOfDays" HeaderText="Number of Days" />
-                    <asp:BoundField DataField="TotalCharges" HeaderText="Total Charges" />
-                    <asp:BoundField DataField="PhoneNumber" HeaderText="Enter Phone Number" />
+                    <asp:BoundField DataField="PatientID" HeaderText="Patient ID" ReadOnly="true" />
+                    <asp:TemplateField HeaderText="Patient Name">
+                        <ItemTemplate>
+                            <asp:Label ID="lblPatientName" runat="server" Text='<%# Eval("PatientName") %>'></asp:Label>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtPatientName" runat="server" Text='<%# Bind("PatientName") %>'></asp:TextBox>
+                        </EditItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Guardian Name">
+                        <ItemTemplate>
+                            <asp:Label ID="lblGuardianName" runat="server" Text='<%# Eval("GuardianName") %>'></asp:Label>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtGuardianName" runat="server" Text='<%# Bind("GuardianName") %>'></asp:TextBox>
+                        </EditItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Days to Admit">
+                        <ItemTemplate>
+                            <asp:Label ID="lblDaysToAdmit" runat="server" Text='<%# Eval("NumberOfDays") %>'></asp:Label>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtDaysToAdmit" runat="server" Text='<%# Bind("NumberOfDays") %>'></asp:TextBox>
+                        </EditItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Total Charges">
+                        <ItemTemplate>
+                            <asp:Label ID="lblTotalCharges" runat="server" Text='<%# Eval("TotalCharges") %>'></asp:Label>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtTotalCharges" runat="server" Text='<%# Bind("TotalCharges") %>'></asp:TextBox>
+                        </EditItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Phone Number">
+                        <ItemTemplate>
+                            <asp:Label ID="lblPhoneNumber" runat="server" Text='<%# Eval("PhoneNumber") %>'></asp:Label>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtPhoneNumber" runat="server" Text='<%# Bind("PhoneNumber") %>'></asp:TextBox>
+                        </EditItemTemplate>
+                    </asp:TemplateField>
                     <asp:TemplateField HeaderText="Status">
                         <ItemTemplate>
-                            <span class='<%# GetStatusClass(Eval("Status").ToString()) %>'>
-                                <%# Eval("Status") %>
+                            <span class='<%# GetStatusClass(Eval("AdmissionStatus").ToString()) %>'>
+                                <%# Eval("AdmissionStatus") %>
                             </span>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:DropDownList ID="ddlAdmissionStatus" runat="server">
+                                <asp:ListItem Text="Confirmed" Value="confirmed"></asp:ListItem>
+                                <asp:ListItem Text="Pending" Value="pending"></asp:ListItem>
+                                <asp:ListItem Text="Cancelled" Value="cancelled"></asp:ListItem>
+                            </asp:DropDownList>
+                        </EditItemTemplate>
                     </asp:TemplateField>
+                    <asp:CommandField ShowEditButton="true" ButtonType="Button" ControlStyle-CssClass="btn-edit" />
+                    <asp:CommandField ShowDeleteButton="true" ButtonType="Button" ControlStyle-CssClass="btn-delete" />
                 </Columns>
+                <HeaderStyle BackColor="#003B32" ForeColor="White" Font-Bold="True" />
+                <RowStyle BackColor="#FFFFFF" BorderColor="Green" BorderWidth="2px" />
+                <AlternatingRowStyle BackColor="#E6FFE6" />
+                <SelectedRowStyle BackColor="#00594D" ForeColor="White" Font-Bold="True" />
+                <PagerStyle BackColor="#0b302c" ForeColor="White" HorizontalAlign="Center" />
             </asp:GridView>
+
         </div>
-        <div class="action-buttons">
-            <asp:Button ID="btnUpdate" runat="server" Text="Update" CssClass="btn-update" />
-            <asp:Button ID="btnDelete" runat="server" Text="Delete" CssClass="btn-delete" />
-        </div>
+
+        <asp:Label ID="lblMessage" runat="server" Text="" CssClass="message-label"></asp:Label>
     </div>
 </asp:Content>
-
-

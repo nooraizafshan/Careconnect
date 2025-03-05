@@ -11,7 +11,7 @@ namespace Careconnect
 {
 
 
-    public partial class WebForm3
+    public partial class CareconnectAdmitform
     {
 
         /// <summary>
@@ -24,6 +24,15 @@ namespace Careconnect
         protected global::System.Web.UI.WebControls.TextBox txtPatientName;
 
         /// <summary>
+        /// rfvPatientName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPatientName;
+
+        /// <summary>
         /// txtGuardianName control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace Careconnect
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtGuardianName;
+
+        /// <summary>
+        /// rfvGuardianName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvGuardianName;
 
         /// <summary>
         /// txtDaysToAdmit control.
@@ -42,6 +60,24 @@ namespace Careconnect
         protected global::System.Web.UI.WebControls.TextBox txtDaysToAdmit;
 
         /// <summary>
+        /// rfvDaysToAdmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDaysToAdmit;
+
+        /// <summary>
+        /// rvDaysToAdmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rvDaysToAdmit;
+
+        /// <summary>
         /// txtTotalCharges control.
         /// </summary>
         /// <remarks>
@@ -51,6 +87,24 @@ namespace Careconnect
         protected global::System.Web.UI.WebControls.TextBox txtTotalCharges;
 
         /// <summary>
+        /// rfvTotalCharges control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTotalCharges;
+
+        /// <summary>
+        /// rvTotalCharges control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rvTotalCharges;
+
+        /// <summary>
         /// txtPhoneNumber control.
         /// </summary>
         /// <remarks>
@@ -58,6 +112,24 @@ namespace Careconnect
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPhoneNumber;
+
+        /// <summary>
+        /// rfvPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPhoneNumber;
+
+        /// <summary>
+        /// revPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revPhoneNumber;
 
         /// <summary>
         /// btnAdmit control.
