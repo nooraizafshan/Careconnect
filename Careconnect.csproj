@@ -73,6 +73,7 @@
     <Content Include="CareconnectManageDoctor.aspx" />
     <Content Include="CareconnectManagepatientpannel.aspx" />
     <Content Include="CareconnectManagePatients.aspx" />
+    <Content Include="CareconnectRegisterdoctor.aspx" />
     <Content Include="dullAdminpannel1.aspx" />
     <Content Include="CareconnectAdminPannel.aspx" />
     <Content Include="dullAdmitForm.aspx" />
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="CareconnectManagePatients.aspx.designer.cs">
       <DependentUpon>CareconnectManagePatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CareconnectRegisterdoctor.aspx.cs">
+      <DependentUpon>CareconnectRegisterdoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CareconnectRegisterdoctor.aspx.designer.cs">
+      <DependentUpon>CareconnectRegisterdoctor.aspx</DependentUpon>
     </Compile>
     <Compile Include="dullAdminpannel1.aspx.cs">
       <DependentUpon>dullAdminpannel1.aspx</DependentUpon>
