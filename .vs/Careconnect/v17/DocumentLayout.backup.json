@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\abdul\\source\\repos\\Careconnect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\careconnectadminpannel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\careconnectadminpannel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\careconnectregisterdoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\careconnectregisterdoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\adminpannel1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\adminpannel1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\source\\repos\\Careconnect\\SQLQuery00.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery00.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\managedoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\managedoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\managepatient.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\managepatient.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\registerdoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\registerdoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\patientpannel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\patientpannel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\careconnectadmitform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\careconnectadmitform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\careconnectadmitform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\careconnectadmitform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\site2.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\site2.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|c:\\users\\abdul\\source\\repos\\careconnect\\careconnect\\site2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\site2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|C:\\Users\\abdul\\source\\repos\\Careconnect\\careconnect\\careconnectregisterdoctor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3771246-EDF4-48CE-B10D-1501FEE88ABB}|Careconnect\\Careconnect.csproj|solutionrelative:careconnect\\careconnectregisterdoctor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +22,46 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CareconnectAdminPannel.aspx",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectAdminPannel.aspx",
-              "RelativeDocumentMoniker": "Careconnect\\CareconnectAdminPannel.aspx",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectAdminPannel.aspx*",
-              "RelativeToolTip": "Careconnect\\CareconnectAdminPannel.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T12:25:22.84Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Adminpannel1.aspx",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\Adminpannel1.aspx",
-              "RelativeDocumentMoniker": "Careconnect\\Adminpannel1.aspx",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\Adminpannel1.aspx",
-              "RelativeToolTip": "Careconnect\\Adminpannel1.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T12:24:08.24Z",
-              "EditorCaption": ""
+              "Title": "SQLQuery00.sql",
+              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\SQLQuery00.sql",
+              "RelativeDocumentMoniker": "SQLQuery00.sql",
+              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\SQLQuery00.sql",
+              "RelativeToolTip": "SQLQuery00.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-06T12:19:09.935Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ManageDoctor.aspx",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\ManageDoctor.aspx",
-              "RelativeDocumentMoniker": "Careconnect\\ManageDoctor.aspx",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\ManageDoctor.aspx",
-              "RelativeToolTip": "Careconnect\\ManageDoctor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T12:23:59.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManagePatient.aspx",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\ManagePatient.aspx",
-              "RelativeDocumentMoniker": "Careconnect\\ManagePatient.aspx",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\ManagePatient.aspx",
-              "RelativeToolTip": "Careconnect\\ManagePatient.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T12:23:58.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterDoctor.aspx",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\RegisterDoctor.aspx",
-              "RelativeDocumentMoniker": "Careconnect\\RegisterDoctor.aspx",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\RegisterDoctor.aspx",
-              "RelativeToolTip": "Careconnect\\RegisterDoctor.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T12:23:55.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PatientPannel.aspx",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\PatientPannel.aspx",
-              "RelativeDocumentMoniker": "Careconnect\\PatientPannel.aspx",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\PatientPannel.aspx",
-              "RelativeToolTip": "Careconnect\\PatientPannel.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T12:23:53.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Site2.Master.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\Site2.Master.cs",
-              "RelativeDocumentMoniker": "Careconnect\\Site2.Master.cs",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\Site2.Master.cs",
-              "RelativeToolTip": "Careconnect\\Site2.Master.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAhwCUAAAAAAAAAAAAAAA==",
+              "Title": "CareconnectRegisterdoctor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectRegisterdoctor.aspx.cs",
+              "RelativeDocumentMoniker": "Careconnect\\CareconnectRegisterdoctor.aspx.cs",
+              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectRegisterdoctor.aspx.cs",
+              "RelativeToolTip": "Careconnect\\CareconnectRegisterdoctor.aspx.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T12:17:40.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T11:59:10.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CareconnectAdmitform.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectAdmitform.aspx.cs",
-              "RelativeDocumentMoniker": "Careconnect\\CareconnectAdmitform.aspx.cs",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectAdmitform.aspx.cs",
-              "RelativeToolTip": "Careconnect\\CareconnectAdmitform.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T12:17:07.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Site2.Master",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\Site2.Master",
-              "RelativeDocumentMoniker": "Careconnect\\Site2.Master",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\Site2.Master",
-              "RelativeToolTip": "Careconnect\\Site2.Master",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T11:05:04.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CareconnectAdmitform.aspx",
-              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectAdmitform.aspx",
-              "RelativeDocumentMoniker": "Careconnect\\CareconnectAdmitform.aspx",
-              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectAdmitform.aspx",
-              "RelativeToolTip": "Careconnect\\CareconnectAdmitform.aspx",
+              "DocumentIndex": 0,
+              "Title": "CareconnectRegisterdoctor.aspx",
+              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectRegisterdoctor.aspx",
+              "RelativeDocumentMoniker": "Careconnect\\CareconnectRegisterdoctor.aspx",
+              "ToolTip": "C:\\Users\\abdul\\source\\repos\\Careconnect\\Careconnect\\CareconnectRegisterdoctor.aspx",
+              "RelativeToolTip": "Careconnect\\CareconnectRegisterdoctor.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-25T11:03:55.445Z",
+              "WhenOpened": "2025-03-06T05:39:11.862Z",
               "EditorCaption": ""
             }
           ]
